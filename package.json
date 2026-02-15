@@ -1,5 +1,6 @@
 {
-    "name": "Freelancing design",
+    "name": "devnova",
+    "homepage": "https://Aryanverma777.github.io/DEVNOVA/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -33,6 +34,7 @@
         "clsx": "*",
         "cmdk": "^1.1.1",
         "embla-carousel-react": "^8.6.0",
+        "gh-pages": "^6.3.0",
         "input-otp": "^1.4.2",
         "lucide-react": "^0.487.0",
         "next-themes": "^0.4.6",
@@ -45,7 +47,9 @@
         "recharts": "^2.15.2",
         "sonner": "^2.0.3",
         "tailwind-merge": "*",
-        "vaul": "^1.1.2"
+        "vaul": "^1.1.2",
+        "predeploy": "pnpm run build",
+        "deploy": "gh-pages -d dist"
     },
     "devDependencies": {
         "@types/node": "^20.10.0",
